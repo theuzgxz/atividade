@@ -1,0 +1,263 @@
+{
+  "nav": null,
+  "sections": [
+    {
+      "index": 0,
+      "id": null,
+      "class": null,
+      "text": "",
+      "htmlSnippet": "<section aria-label=\"Notifications alt+T\" tabindex=\"-1\" aria-live=\"polite\" aria-relevant=\"additions text\" aria-atomic=\"false\"></section>"
+    },
+    {
+      "index": 1,
+      "id": null,
+      "class": "relative bg-peach bg-confetti py-12 px-6 overflow-hidden",
+      "text": "✏️ ⭐ 📚 +500 professoras já baixaram 267+ atividades de interpretação e produção de texto — do 1º ao 5º ano 📚 Material pronto para imprimir, cheio de textos que prendem e atividades que fazem os alunos pensar de verdade. Quero meu kit por R$17,90 → ⬇ Download imediato após a compra",
+      "htmlSnippet": "<section class=\"relative bg-peach bg-confetti py-12 px-6 overflow-hidden\"><div class=\"absolute top-6 left-8 text-4xl animate-float opacity-60\">✏️</div><div class=\"absolute top-16 right-12 text-3xl animate-wiggle opacity-60\">⭐</div><div class=\"absolute bottom-20 left-16 text-3xl animate-float opacity-50\" style=\"animation-delay: 1s;\">📚</div><div class=\"relative z-10 max-w-3xl mx-auto text-center\"><div style=\"opacity: 1; transform: none;\"><span class=\"inline-flex items-center gap-1.5 bg-accent text-accent-foreground text-sm font-bold px-5 py-2 rounded-full mb-5 shadow-md\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg>+500 professoras já baixaram</span></div><h1 class=\"text-3xl sm:text-4xl md:text-5xl font-extrabold leading-[1.15] text-foreground mb-4 proteger\" style=\"opacity: 1; transform: none;\">267+ atividades de interpretação e produção de texto — <span class=\"text-primary underline decoration-accent decoration-4 underline-offset-4\">do 1º ao 5º ano</span> 📚</h1><p class=\"text-base sm:text-lg text-muted-foreground mb-6 max-w-lg mx-auto leading-relaxed font-semibold proteger\" style=\"opacity: 1; transform: none;\">Material pronto para imprimir, cheio de textos que prendem e atividades que fazem os alunos pensar de verdade.</p><div class=\"mb-6\" style=\"opacity: 1; transform: none;\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/criadora-D8HSYWBF.png\" data-savepage-src=\"/assets/criadora-D8HSYWBF.png\" src=\"DATA_URI_REMOVED\" alt=\"Criadora do kit segurando atividades\" class=\"w-full max-w-sm mx-auto rounded-3xl object-cover shadow-xl border-4 border-card\"></div><div class=\"space-y-3\" style=\"opacity: 1; transform: none;\"><a href=\"#para-quem\" class=\"inline-block bg-primary text-primary-foreground font-extrabold text-lg px-10 py-4 rounded-full shadow-lg hover:brightness-110 transition-all duration-200 hover:scale-105\">Quero meu kit por R$17,90 →</a><p class=\"text-sm text-muted-foreground font-semibold flex items-center justify-center gap-1.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-down animate-bounce\"><path d=\"M12 5v14\"></path><path d=\"m19 12-7 7-7-7\"></path></svg>⬇ Download imediato após a compra</p></div></div></section>"
+    },
+    {
+      "index": 2,
+      "id": null,
+      "class": "py-12 px-6 bg-card",
+      "text": "Por que encontrar bons textos virou um pesadelo? 😩 Textos genéricos do Google Você perde horas procurando e ainda não acha nada com qualidade pedagógica de verdade. Atividades que não engajam Os alunos fazem por obrigação. Não há interpretação real, só cópia de trecho. Do zero toda semana Montar atividade do zero consome energia que você precisava para ensinar. Fora da BNCC Material bonito mas sem alinhamento curricular deixa você insegura na hora de aplicar.",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-card\"><div class=\"max-w-4xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8\">Por que encontrar bons textos virou um pesadelo? 😩</h2><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\"><div class=\"bg-peach rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-primary/30 transition-colors\"><div class=\"bg-primary text-primary-foreground w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search-x\"><path d=\"m13.5 8.5-5 5\"></path><path d=\"m8.5 8.5 5 5\"></path><circle cx=\"11\" cy=\"11\" r=\"8\"></circle><path d=\"m21 21-4.3-4.3\"></path></svg></div><div><p class=\"font-extrabold text-foreground text-base mb-0.5\">Textos genéricos do Google</p><p class=\"text-muted-foreground text-sm font-medium\">Você perde horas procurando e ainda não acha nada com qualidade pedagógica de verdade.</p></div></div><div class=\"bg-lilac rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-primary/30 transition-colors\"><div class=\"bg-primary text-primary-foreground w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-frown\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M16 16s-1.5-2-4-2-4 2-4 2\"></path><line x1=\"9\" x2=\"9.01\" y1=\"9\" y2=\"9\"></line><line x1=\"15\" x2=\"15.01\" y1=\"9\" y2=\"9\"></line></svg></div><div><p class=\"font-extrabold text-foreground text-base mb-0.5\">Atividades que não engajam</p><p class=\"text-muted-foreground text-sm font-medium\">Os alunos fazem por obrigação. Não há interpretação real, só cópia de trecho.</p></div></div><div class=\"bg-honey rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-primary/30 transition-colors\"><div class=\"bg-primary text-primary-foreground w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clock\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg></div><div><p class=\"font-extrabold text-foreground text-base mb-0.5\">Do zero toda semana</p><p class=\"text-muted-foreground text-sm font-medium\">Montar atividade do zero consome energia que você precisava para ensinar.</p></div></div><div class=\"bg-mint rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-primary/30 transition-colors\"><div class=\"bg-primary text-primary-foreground w-11 h-11 rounded-xl flex items-cent"
+    },
+    {
+      "index": 3,
+      "id": "para-quem",
+      "class": "py-12 px-6 bg-card bg-dots",
+      "text": "Esse kit foi feito para você se... 🎯 Você quer atividades de interpretação prontas sem gastar horas pesquisando Quer que seus alunos desenvolvam leitura e escrita de verdade, não só copiem Precisa de material alinhado à BNCC sem complicação Atende do 1º ao 5º ano — ou mais de uma turma ao mesmo tempo Está cansada de improvisar na véspera da aula Quer economizar tempo sem abrir mão da qualidade pedagógica",
+      "htmlSnippet": "<section id=\"para-quem\" class=\"py-12 px-6 bg-card bg-dots\"><div class=\"max-w-3xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8\">Esse kit foi feito para você se... 🎯</h2><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-3\"><div class=\"bg-background rounded-xl p-4 flex items-start gap-3 border-l-4 border-primary shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check text-secondary flex-shrink-0 mt-0.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span class=\"text-foreground font-bold text-sm\">Você quer atividades de interpretação prontas sem gastar horas pesquisando</span></div><div class=\"bg-background rounded-xl p-4 flex items-start gap-3 border-l-4 border-primary shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check text-secondary flex-shrink-0 mt-0.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span class=\"text-foreground font-bold text-sm\">Quer que seus alunos desenvolvam leitura e escrita de verdade, não só copiem</span></div><div class=\"bg-background rounded-xl p-4 flex items-start gap-3 border-l-4 border-primary shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check text-secondary flex-shrink-0 mt-0.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span class=\"text-foreground font-bold text-sm\">Precisa de material alinhado à BNCC sem complicação</span></div><div class=\"bg-background rounded-xl p-4 flex items-start gap-3 border-l-4 border-primary shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check text-secondary flex-shrink-0 mt-0.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span class=\"text-foreground font-bold text-sm\">Atende do 1º ao 5º ano — ou mais de uma turma ao mesmo tempo</span></div><div class=\"bg-background rounded-xl p-4 flex items-start gap-3 border-l-4 border-primary shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check text-secondary flex-shrink-0 mt-0.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span class=\"text-foreground font-bold text-sm\">Está cansada de improvisar na véspera da aula</s"
+    },
+    {
+      "index": 4,
+      "id": null,
+      "class": "py-12 px-6 bg-background",
+      "text": "Não é só material extra. É a sua liberdade de volta. 🕊️ 267+ atividades prontas Interpretação e produção de texto para o ano inteiro — sem improvisar, sem procurar. Textos que prendem de verdade Selecionados para cada faixa etária, com perguntas que desenvolvem o raciocínio. Do 1º ao 5º ano na mesma compra Material completo para quem atende mais de uma turma ou quer ter tudo em mãos. Pronto para imprimir agora PDF editável, funciona em qualquer impressora, colorido ou preto e branco.",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-background\"><div class=\"max-w-4xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8\">Não é só material extra. É a sua liberdade de volta. 🕊️</h2><div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4\"><div class=\"bg-mint rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-secondary/40 transition-colors\"><div class=\"bg-secondary text-secondary-foreground w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-graduation-cap\"><path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\"></path><path d=\"M22 10v6\"></path><path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\"></path></svg></div><div><p class=\"font-extrabold text-foreground text-base mb-0.5\">267+ atividades prontas</p><p class=\"text-muted-foreground text-sm font-medium\">Interpretação e produção de texto para o ano inteiro — sem improvisar, sem procurar.</p></div></div><div class=\"bg-honey rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-secondary/40 transition-colors\"><div class=\"bg-secondary text-secondary-foreground w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar-check\"><path d=\"M8 2v4\"></path><path d=\"M16 2v4\"></path><rect width=\"18\" height=\"18\" x=\"3\" y=\"4\" rx=\"2\"></rect><path d=\"M3 10h18\"></path><path d=\"m9 16 2 2 4-4\"></path></svg></div><div><p class=\"font-extrabold text-foreground text-base mb-0.5\">Textos que prendem de verdade</p><p class=\"text-muted-foreground text-sm font-medium\">Selecionados para cada faixa etária, com perguntas que desenvolvem o raciocínio.</p></div></div><div class=\"bg-peach rounded-2xl p-5 flex items-start gap-3 border-2 border-transparent hover:border-secondary/40 transition-colors\"><div class=\"bg-secondary text-secondary-foreground w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery-charging\"><path d=\"M15 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2\"></path><path d=\"M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1\"></path><path d=\"m11 7-3 5h4l-3 5\"></path><line x1=\"22\" x2=\"22\" y1=\"11\" y2=\"13\"></line></svg></div><div><p class=\"font-extrabold text-foreground text-base mb-0.5\">Do 1º ao 5º ano na mesma compra</p><p class=\"text-muted-foreground text-sm font-medium\">Material completo para quem atende mais de uma turma ou quer te"
+    },
+    {
+      "index": 5,
+      "id": null,
+      "class": "py-12 px-6 bg-honey bg-stars",
+      "text": "267+ atividades esperando por você ✏️ 📘 Kit 1º Ano Textos curtos com questões de interpretação e propostas de produção para quem está começando a ler. 📗 Kit 2º Ano Atividades de compreensão mais elaboradas e escrita criativa com suporte visual. 📙 Kit 3º Ano Interpretação aprofundada, produção argumentativa e desafios de escrita para turmas em consolidação. 📕 Kit 4º Ano Textos mais longos, inferência e produção textual com começo, meio e fim. 📓 Kit 5º Ano Interpretação avançada, gêneros variados e produção argumentativa para fechar o ciclo. 🎨 Visual colorido Ilustrações que engajam e motivam — pronto para imprimir e aplicar. 📄 PDF editável Personalize se quiser, ou imprima direto do jeito que está.",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-honey bg-stars\"><div class=\"max-w-4xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8\">267+ atividades esperando por você ✏️</h2><div class=\"space-y-3 max-w-2xl mx-auto\"><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">📘</span><div><p class=\"font-extrabold text-foreground text-base\">Kit 1º Ano</p><p class=\"text-muted-foreground text-sm font-medium\">Textos curtos com questões de interpretação e propostas de produção para quem está começando a ler.</p></div></div><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">📗</span><div><p class=\"font-extrabold text-foreground text-base\">Kit 2º Ano</p><p class=\"text-muted-foreground text-sm font-medium\">Atividades de compreensão mais elaboradas e escrita criativa com suporte visual.</p></div></div><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">📙</span><div><p class=\"font-extrabold text-foreground text-base\">Kit 3º Ano</p><p class=\"text-muted-foreground text-sm font-medium\">Interpretação aprofundada, produção argumentativa e desafios de escrita para turmas em consolidação.</p></div></div><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">📕</span><div><p class=\"font-extrabold text-foreground text-base\">Kit 4º Ano</p><p class=\"text-muted-foreground text-sm font-medium\">Textos mais longos, inferência e produção textual com começo, meio e fim.</p></div></div><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">📓</span><div><p class=\"font-extrabold text-foreground text-base\">Kit 5º Ano</p><p class=\"text-muted-foreground text-sm font-medium\">Interpretação avançada, gêneros variados e produção argumentativa para fechar o ciclo.</p></div></div><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">🎨</span><div><p class=\"font-extrabold text-foreground text-base\">Visual colorido</p><p class=\"text-muted-foreground text-sm font-medium\">Ilustrações que engajam e motivam — pronto para imprimir e aplicar.</p></div></div><div class=\"bg-card rounded-2xl p-4 flex items-center gap-4 shadow-sm border-2 border-transparent hover:border-accent/40 transition-colors\"><span class=\"text-3xl\">📄</span><div><p class=\"font-extrabold text-foreground text-base\">PDF editável</p><p class=\"text-muted-foreground text-sm font-medium\">Personalize se quiser, ou imprima direto do jeito que está.</p></div></div></div></div></secti"
+    },
+    {
+      "index": 6,
+      "id": null,
+      "class": "py-12 px-2 sm:px-6 bg-background overflow-hidden",
+      "text": "Dá uma espiadinha no material 👀 Essas são só algumas páginas — tem muito mais dentro do kit! 📖",
+      "htmlSnippet": "<section class=\"py-12 px-2 sm:px-6 bg-background overflow-hidden\"><div class=\"max-w-5xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8 px-4\">Dá uma espiadinha no material 👀</h2><div class=\"relative w-full overflow-hidden\" style=\"mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);\"><div class=\"flex gap-4 sm:gap-6 animate-marquee w-max\"><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-1-Bb7Emq4H.png\" data-savepage-src=\"/assets/amostra-1-Bb7Emq4H.png\" src=\"DATA_URI_REMOVED\" alt=\"Amostra de atividade 1\" class=\"w-full h-full object-cover\" data-savepage-loading=\"lazy\"></div><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-2-DCxhngeK.png\" data-savepage-src=\"/assets/amostra-2-DCxhngeK.png\" src=\"DATA_URI_REMOVED\" alt=\"Amostra de atividade 2\" class=\"w-full h-full object-cover\" data-savepage-loading=\"lazy\"></div><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-3-9l1116Mc.png\" data-savepage-src=\"/assets/amostra-3-9l1116Mc.png\" src=\"DATA_URI_REMOVED\" alt=\"Amostra de atividade 3\" class=\"w-full h-full object-cover\" data-savepage-loading=\"lazy\"></div><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-4-DyR6x8un.png\" data-savepage-src=\"/assets/amostra-4-DyR6x8un.png\" src=\"DATA_URI_REMOVED\" alt=\"Amostra de atividade 4\" class=\"w-full h-full object-cover\" data-savepage-loading=\"lazy\"></div><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-5-Bk62JwBK.png\" data-savepage-src=\"/assets/amostra-5-Bk62JwBK.png\" src=\"DATA_URI_REMOVED\" alt=\"Amostra de atividade 5\" class=\"w-full h-full object-cover\" data-savepage-loading=\"lazy\"></div><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-6-C9SVogpo.png\" data-savepage-src=\"/assets/amostra-6-C9SVogpo.png\" src=\"DATA_URI_REMOVED\" alt=\"Amostra de atividade 6\" class=\"w-full h-full object-cover\" data-savepage-loading=\"lazy\"></div><div class=\"w-48 sm:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-lg border-2 border-border bg-card\"><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/amostra-7-B3PmXLAg.png\" data-savepage-src=\"/assets/amostra-7-"
+    },
+    {
+      "index": 7,
+      "id": null,
+      "class": "py-12 px-6 bg-card",
+      "text": "Sua aula pronta em 3 passos 🚀 1 Comprou Acesso imediato ao arquivo após a confirmação do pagamento. 2 Imprimiu Funciona em qualquer impressora. Colorido ou preto e branco, fica lindo. 3 Aplicou 267+ atividades para trabalhar o ano inteiro sem improvisar.",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-card\"><div class=\"max-w-4xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8\">Sua aula pronta em 3 passos 🚀</h2><div class=\"grid grid-cols-1 sm:grid-cols-3 gap-5\"><div class=\"bg-mint rounded-2xl p-6 text-center border-2 border-transparent hover:border-primary/30 transition-colors\"><span class=\"text-5xl font-extrabold text-primary block mb-2\">1</span><div class=\"bg-primary text-primary-foreground w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-download\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><polyline points=\"7 10 12 15 17 10\"></polyline><line x1=\"12\" x2=\"12\" y1=\"15\" y2=\"3\"></line></svg></div><p class=\"font-extrabold text-foreground text-base mb-1\">Comprou</p><p class=\"text-muted-foreground text-sm font-medium\">Acesso imediato ao arquivo após a confirmação do pagamento.</p></div><div class=\"bg-honey rounded-2xl p-6 text-center border-2 border-transparent hover:border-primary/30 transition-colors\"><span class=\"text-5xl font-extrabold text-primary block mb-2\">2</span><div class=\"bg-primary text-primary-foreground w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-printer\"><path d=\"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2\"></path><path d=\"M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6\"></path><rect x=\"6\" y=\"14\" width=\"12\" height=\"8\" rx=\"1\"></rect></svg></div><p class=\"font-extrabold text-foreground text-base mb-1\">Imprimiu</p><p class=\"text-muted-foreground text-sm font-medium\">Funciona em qualquer impressora. Colorido ou preto e branco, fica lindo.</p></div><div class=\"bg-peach rounded-2xl p-6 text-center border-2 border-transparent hover:border-primary/30 transition-colors\"><span class=\"text-5xl font-extrabold text-primary block mb-2\">3</span><div class=\"bg-primary text-primary-foreground w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3 shadow-sm\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-smile\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M8 14s1.5 2 4 2 4-2 4-2\"></path><line x1=\"9\" x2=\"9.01\" y1=\"9\" y2=\"9\"></line><line x1=\"15\" x2=\"15.01\" y1=\"9\" y2=\"9\"></line></svg></div><p class=\"font-extrabold text-foreground text-base mb-1\">Aplicou</p><p class=\"text-muted-foreground text-sm font-medium\">267+ atividades para trabalhar o ano inteiro sem improvisar.</p></div></div></div></section>"
+    },
+    {
+      "index": 8,
+      "id": null,
+      "class": "py-12 px-6 bg-secondary/10 bg-confetti",
+      "text": "Quem compra hoje leva o dobro 🎁 BÔNUS 📋 Gabarito completo Todas as respostas organizadas para corrigir rápido e com segurança. Valor: R$9,90 BÔNUS 📊 Ficha de acompanhamento de leitura Registro simples do progresso de cada aluno em interpretação e escrita. Valor: R$7,90 BÔNUS 📅 Sequência didática sugerida Como usar as 267+ atividades ao longo do ano sem perder o fio pedagógico. Valor: R$12,90 Exclusivo Premium 📖 Atividades de Leitura Fluente Sequências de leitura progressiva para desenvolver fluência, entonação e compreensão oral — do 1º ao 5º ano. Valor: R$14,90 Exclusivo Premium 📝 Gêneros Textuais — 1º ao 5º ano Atividades completas por gênero: fábula, poema, notícia, carta, conto, tirinha, receita e muito mais. Alinhado à BNCC. Valor: R$19,90 Tudo isso incluso no seu kit hoje ✨",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-secondary/10 bg-confetti\"><div class=\"max-w-5xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8 proteger\">Quem compra hoje leva o dobro 🎁</h2><div class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 proteger\"><div class=\"bg-mint rounded-2xl p-5 text-center relative overflow-hidden border-2 border-transparent hover:border-primary/30 transition-colors\"><span class=\"absolute top-2.5 right-2.5 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm bg-primary text-primary-foreground\">BÔNUS</span><span class=\"text-4xl block mb-2 mt-4\">📋</span><h3 class=\"font-extrabold text-base text-foreground mb-1\">Gabarito completo</h3><p class=\"text-sm text-muted-foreground mb-2 font-medium\">Todas as respostas organizadas para corrigir rápido e com segurança.</p><p class=\"text-sm font-bold text-primary line-through\">Valor: R$9,90</p></div><div class=\"bg-lilac rounded-2xl p-5 text-center relative overflow-hidden border-2 border-transparent hover:border-primary/30 transition-colors\"><span class=\"absolute top-2.5 right-2.5 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm bg-primary text-primary-foreground\">BÔNUS</span><span class=\"text-4xl block mb-2 mt-4\">📊</span><h3 class=\"font-extrabold text-base text-foreground mb-1\">Ficha de acompanhamento de leitura</h3><p class=\"text-sm text-muted-foreground mb-2 font-medium\">Registro simples do progresso de cada aluno em interpretação e escrita.</p><p class=\"text-sm font-bold text-primary line-through\">Valor: R$7,90</p></div><div class=\"bg-honey rounded-2xl p-5 text-center relative overflow-hidden border-2 border-transparent hover:border-primary/30 transition-colors\"><span class=\"absolute top-2.5 right-2.5 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm bg-primary text-primary-foreground\">BÔNUS</span><span class=\"text-4xl block mb-2 mt-4\">📅</span><h3 class=\"font-extrabold text-base text-foreground mb-1\">Sequência didática sugerida</h3><p class=\"text-sm text-muted-foreground mb-2 font-medium\">Como usar as 267+ atividades ao longo do ano sem perder o fio pedagógico.</p><p class=\"text-sm font-bold text-primary line-through\">Valor: R$12,90</p></div><div class=\"bg-sky rounded-2xl p-5 text-center relative overflow-hidden border-2 border-[#7C3AED]/40 hover:border-primary/30 transition-colors\"><span class=\"absolute top-2.5 right-2.5 text-xs font-extrabold px-3 py-1 rounded-full shadow-sm bg-[#7C3AED] text-white\">Exclusivo Premium</span><span class=\"text-4xl block mb-2 mt-4\">📖</span><h3 class=\"font-extrabold text-base text-foreground mb-1\">Atividades de Leitura Fluente</h3><p class=\"text-sm text-muted-foreground mb-2 font-medium\">Sequências de leitura progressiva para desenvolver fluência, entonação e compreensão oral — do 1º ao 5º ano.</p><p class=\"text-sm font-bold text-primary line-through\">Valor: R$14,90</p></div><div class=\"bg-peach rounded-2xl p-5 text-center relative overflow-hidden border-2 border-[#7C3AED]/40 hover:border-primary/30 transition-"
+    },
+    {
+      "index": 9,
+      "id": null,
+      "class": "py-12 px-6 bg-primary",
+      "text": "💬 \"Minha turma evoluiu muito em leitura. As atividades são bem elaboradas, os alunos realmente interpretam — não só copiam. Economizei horas toda semana.\" — Professora Ana, 2º ano 👩‍🏫",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-primary\"><div class=\"max-w-3xl mx-auto text-center\"><span class=\"text-4xl mb-3 block\">💬</span><blockquote class=\"text-xl sm:text-2xl font-bold italic text-primary-foreground leading-relaxed mb-4 proteger\">\"Minha turma evoluiu muito em leitura. As atividades são bem elaboradas, os alunos realmente interpretam — não só copiam. Economizei horas toda semana.\"</blockquote><p class=\"text-primary-foreground/80 font-extrabold text-base proteger\">— Professora Ana, 2º ano 👩‍🏫</p></div></section>"
+    },
+    {
+      "index": 10,
+      "id": null,
+      "class": "py-12 px-6 bg-background",
+      "text": "O que as professoras estão dizendo 💬 ★★★★★ \"Minhas alunas amaram as atividades! O material é lindo e super bem organizado. Economizei muito tempo no meu planejamento.\" 👩‍🏫 Ana Paula São Paulo, SP ★★★★★ \"Melhor investimento que fiz! Os textos são perfeitos para a faixa etária e as atividades são muito envolventes.\" 👩‍🏫 Carla Souza Belo Horizonte, MG ★★★★★ \"Recomendo demais! Material completo, bonito e prático. Meus alunos pedem para fazer as atividades toda semana.\" 👩‍🏫 Juliana Mendes Curitiba, PR",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-background\"><div class=\"max-w-5xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8 proteger\">O que as professoras estão dizendo 💬</h2><div class=\"grid grid-cols-1 sm:grid-cols-3 gap-4\"><div class=\"bg-peach rounded-2xl p-5 border-2 border-transparent hover:border-accent/40 transition-colors proteger\"><div class=\"text-accent text-lg mb-2 font-bold\">★★★★★</div><p class=\"text-foreground text-sm mb-3 italic font-semibold\">\"Minhas alunas amaram as atividades! O material é lindo e super bem organizado. Economizei muito tempo no meu planejamento.\"</p><div class=\"flex items-center gap-3\"><div class=\"w-9 h-9 rounded-full bg-card flex items-center justify-center text-base shadow-sm\">👩‍🏫</div><div><p class=\"font-extrabold text-foreground text-sm\">Ana Paula</p><p class=\"text-muted-foreground text-xs font-medium\">São Paulo, SP</p></div></div></div><div class=\"bg-mint rounded-2xl p-5 border-2 border-transparent hover:border-accent/40 transition-colors proteger\"><div class=\"text-accent text-lg mb-2 font-bold\">★★★★★</div><p class=\"text-foreground text-sm mb-3 italic font-semibold\">\"Melhor investimento que fiz! Os textos são perfeitos para a faixa etária e as atividades são muito envolventes.\"</p><div class=\"flex items-center gap-3\"><div class=\"w-9 h-9 rounded-full bg-card flex items-center justify-center text-base shadow-sm\">👩‍🏫</div><div><p class=\"font-extrabold text-foreground text-sm\">Carla Souza</p><p class=\"text-muted-foreground text-xs font-medium\">Belo Horizonte, MG</p></div></div></div><div class=\"bg-lilac rounded-2xl p-5 border-2 border-transparent hover:border-accent/40 transition-colors proteger\"><div class=\"text-accent text-lg mb-2 font-bold\">★★★★★</div><p class=\"text-foreground text-sm mb-3 italic font-semibold\">\"Recomendo demais! Material completo, bonito e prático. Meus alunos pedem para fazer as atividades toda semana.\"</p><div class=\"flex items-center gap-3\"><div class=\"w-9 h-9 rounded-full bg-card flex items-center justify-center text-base shadow-sm\">👩‍🏫</div><div><p class=\"font-extrabold text-foreground text-sm\">Juliana Mendes</p><p class=\"text-muted-foreground text-xs font-medium\">Curitiba, PR</p></div></div></div></div></div></section>"
+    },
+    {
+      "index": 11,
+      "id": "planos",
+      "class": "py-12 px-6 bg-secondary/10 bg-confetti",
+      "text": "Escolha o seu kit ✨ Comece com o essencial ou leve tudo de uma vez ⭐ MAIS VENDIDO Kit Premium 267+ atividades + bônus exclusivos De R$80,00 R$26,90 Você economiza R$53,10 Tudo do Kit Essencial ✨ BÔNUS EXCLUSIVO: Atividades de Leitura Fluente (1º ao 5º ano) ✨ BÔNUS EXCLUSIVO: Gêneros Textuais completos — fábula, poema, notícia, carta, conto, tirinha e mais (1º ao 5º ano) Alinhado 100% à BNCC PDF editável — imprime quantas vezes quiser Acesso vitalício 🎯 Quero o Kit Premium por R$26,90 → 🔒 Compra segura · Download imediato · Garantia de 7 dias Kit Essencial De R$50,70 R$17,90 267+ atividades de interpretação e produção de texto Do 1º ao 5º ano PDF editável — imprime quantas vezes quiser Gabarito completo (Bônus) Ficha de acompanhamento de leitura (Bônus) Sequência didática sugerida (Bônus)",
+      "htmlSnippet": "<section id=\"planos\" class=\"py-12 px-6 bg-secondary/10 bg-confetti\"><div class=\"max-w-6xl mx-auto\"><div style=\"opacity: 1; transform: none;\"><h2 class=\"text-3xl sm:text-4xl text-center text-foreground mb-2\">Escolha o seu kit ✨</h2><p class=\"text-center text-muted-foreground font-semibold mb-10 text-base sm:text-lg\">Comece com o essencial ou leve tudo de uma vez</p></div><div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-6 items-stretch\"><div class=\"order-2 md:order-2 relative rounded-3xl p-8 bg-card shadow-2xl text-center border-4 border-[#7C3AED] md:scale-105 mt-6 md:mt-0\" data-premium-card=\"true\" style=\"opacity: 1; transform: none;\"><div class=\"absolute -top-4 left-1/2 -translate-x-1/2 z-20\"><span class=\"bg-[#7C3AED] text-white text-xs sm:text-sm font-extrabold px-5 py-2 rounded-full shadow-xl whitespace-nowrap border-2 border-white tracking-wide\">⭐ MAIS VENDIDO</span></div><img data-savepage-currentsrc=\"https://interpretacao.lovable.app/assets/produto-mockup-ri7laRSR.png\" data-savepage-src=\"/assets/produto-mockup-ri7laRSR.png\" src=\"DATA_URI_REMOVED\" alt=\"Kit Premium — Interpretação e Produção de Texto 1º ao 5º ano\" class=\"w-64 sm:w-72 mx-auto mb-5 mt-3 proteger\"><h3 class=\"text-2xl sm:text-3xl text-foreground mb-1 proteger\">Kit Premium</h3><p class=\"text-muted-foreground text-sm font-extrabold uppercase tracking-wider mb-1 proteger\">267+ atividades + bônus exclusivos</p><p class=\"text-muted-foreground line-through text-lg mb-0.5 font-bold proteger\">De R$80,00</p><p class=\"text-5xl sm:text-6xl font-extrabold text-[#7C3AED] mb-2 proteger\">R$26,90</p><span class=\"inline-block bg-accent text-accent-foreground text-xs font-extrabold px-3 py-1 rounded-full mb-5\">Você economiza R$53,10</span><ul class=\"text-left space-y-2.5 mb-6 proteger\"><li class=\"flex items-start gap-3\"><span class=\"bg-[#7C3AED] text-white w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check\"><path d=\"M20 6 9 17l-5-5\"></path></svg></span><span class=\"text-foreground font-bold text-sm\">Tudo do Kit Essencial</span></li><li class=\"flex items-start gap-3\"><span class=\"bg-[#7C3AED] text-white w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check\"><path d=\"M20 6 9 17l-5-5\"></path></svg></span><span class=\"text-foreground font-bold text-sm\">✨ BÔNUS EXCLUSIVO: Atividades de Leitura Fluente (1º ao 5º ano)</span></li><li class=\"flex items-start gap-3\"><span class=\"bg-[#7C3AED] text-white w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox="
+    },
+    {
+      "index": 12,
+      "id": null,
+      "class": "py-12 px-6 bg-card",
+      "text": "O risco é todo nosso 🛡️ Se você baixar as 267+ atividades e não gostar, é só me chamar em até 7 dias que devolvo 100% do valor. Sem burocracia, sem perguntas.",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-card\"><div class=\"max-w-2xl mx-auto text-center\"><div class=\"bg-secondary text-secondary-foreground w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-md\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield-check\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></div><h2 class=\"text-2xl sm:text-3xl text-foreground mb-3\">O risco é todo nosso 🛡️</h2><p class=\"text-muted-foreground text-base max-w-lg mx-auto font-semibold leading-relaxed\">Se você baixar as 267+ atividades e não gostar, é só me chamar em até 7 dias que devolvo 100% do valor. Sem burocracia, sem perguntas.</p></div></section>"
+    },
+    {
+      "index": 13,
+      "id": null,
+      "class": "py-12 px-6 bg-background",
+      "text": "Dúvidas? Eu respondo 😉 svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Como recebo o material? svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Precisa de impressora especial? svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Por quanto tempo tenho acesso? svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Posso usar em mais de uma turma?",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-background\"><div class=\"max-w-2xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl text-center text-foreground mb-8\">Dúvidas? Eu respondo 😉</h2><div class=\"space-y-3\" data-orientation=\"vertical\"><div data-state=\"closed\" data-orientation=\"vertical\" class=\"bg-card rounded-2xl border-2 border-border px-5 shadow-sm hover:border-primary/30 transition-colors\"><h3 data-orientation=\"vertical\" data-state=\"closed\" class=\"flex\"><button type=\"button\" aria-controls=\"radix-:r1:\" aria-expanded=\"false\" data-state=\"closed\" data-orientation=\"vertical\" id=\"radix-:r0:\" class=\"flex flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Como recebo o material?<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200\"><path d=\"m6 9 6 6 6-6\"></path></svg></button></h3><div data-state=\"closed\" id=\"radix-:r1:\" hidden=\"\" role=\"region\" aria-labelledby=\"radix-:r0:\" data-orientation=\"vertical\" class=\"overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down\" style=\"--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);\"></div></div><div data-state=\"closed\" data-orientation=\"vertical\" class=\"bg-card rounded-2xl border-2 border-border px-5 shadow-sm hover:border-primary/30 transition-colors\"><h3 data-orientation=\"vertical\" data-state=\"closed\" class=\"flex\"><button type=\"button\" aria-controls=\"radix-:r3:\" aria-expanded=\"false\" data-state=\"closed\" data-orientation=\"vertical\" id=\"radix-:r2:\" class=\"flex flex-1 items-center justify-between py-4 transition-all [&[data-state=open]>svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Precisa de impressora especial?<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200\"><path d=\"m6 9 6 6 6-6\"></path></svg></button></h3><div data-state=\"closed\" id=\"radix-:r3:\" hidden=\"\" role=\"region\" aria-labelledby=\"radix-:r2:\" data-orientation=\"vertical\" class=\"overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down\" style=\"--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);\"></div></div><div data-state=\"closed\" data-orientation=\"vertical\" class=\"bg-card rounded-2xl border-2 border-border px-5 shadow-sm hover:border-primary/30 tr"
+    },
+    {
+      "index": 14,
+      "id": null,
+      "class": "py-12 px-6 bg-primary text-primary-foreground text-center",
+      "text": "Sua turma merece atividades que desenvolvem de verdade. ✨ E você merece um planejamento sem estresse. Garantir minhas 267 atividades por R$17,90",
+      "htmlSnippet": "<section class=\"py-12 px-6 bg-primary text-primary-foreground text-center\"><div class=\"max-w-2xl mx-auto\"><h2 class=\"text-2xl sm:text-3xl mb-2\">Sua turma merece atividades que desenvolvem de verdade. ✨</h2><p class=\"text-primary-foreground/80 text-lg font-semibold mb-5\">E você merece um planejamento sem estresse.</p><a href=\"https://checkout.doppus.app/49532767?utm_source=&utm_campaign=&utm_medium=&utm_content=%3A%3AIwY2xjawRxkD5leHRuA2FlbQIxMABicmlkETFqMVBDVDFYRmx5UTRuRE9Oc3J0YwZhcHBfaWQPNTQxNjM5NDkzODg5MDI1AAEe4tA5P-AvfQvp7I9ekCswm6tqXuewmKF1HKGGio3gQ1LgJxfzwGl8SU4qM1o_aem_K2wHXGRfZno1j3zQ8uMCJg%3A%3A&utm_term=\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"inline-block bg-card text-primary font-extrabold text-lg px-10 py-4 rounded-full shadow-lg hover:brightness-105 transition-all hover:scale-105\">Garantir minhas 267 atividades por R$17,90</a></div></section>"
+    }
+  ],
+  "footer": null,
+  "headings": {
+    "h1": [
+      "267+ atividades de interpretação e produção de texto — do 1º ao 5º ano 📚"
+    ],
+    "h2": [
+      "Por que encontrar bons textos virou um pesadelo? 😩",
+      "Esse kit foi feito para você se... 🎯",
+      "Não é só material extra. É a sua liberdade de volta. 🕊️",
+      "267+ atividades esperando por você ✏️",
+      "Dá uma espiadinha no material 👀",
+      "Sua aula pronta em 3 passos 🚀",
+      "Quem compra hoje leva o dobro 🎁",
+      "O que as professoras estão dizendo 💬",
+      "Escolha o seu kit ✨",
+      "O risco é todo nosso 🛡️",
+      "Dúvidas? Eu respondo 😉",
+      "Sua turma merece atividades que desenvolvem de verdade. ✨"
+    ],
+    "h3": [
+      "Gabarito completo",
+      "Ficha de acompanhamento de leitura",
+      "Sequência didática sugerida",
+      "Atividades de Leitura Fluente",
+      "Gêneros Textuais — 1º ao 5º ano",
+      "Kit Premium",
+      "Kit Essencial",
+      "svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Como recebo o material?",
+      "svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Precisa de impressora especial?",
+      "svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Por quanto tempo tenho acesso?",
+      "svg]:rotate-180 font-extrabold text-foreground text-left hover:no-underline\" data-radix-collection-item=\"\">Posso usar em mais de uma turma?"
+    ]
+  },
+  "images": [
+    {
+      "src": "https://www.facebook.com/tr?id=1261201992305874&ev=PageView&noscript=1",
+      "alt": "",
+      "class": ""
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/criadora-D8HSYWBF.png",
+      "alt": "Criadora do kit segurando atividades",
+      "class": "w-full max-w-sm mx-auto rounded-3xl object-cover shadow-xl border-4 border-card"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-1-Bb7Emq4H.png",
+      "alt": "Amostra de atividade 1",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-2-DCxhngeK.png",
+      "alt": "Amostra de atividade 2",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-3-9l1116Mc.png",
+      "alt": "Amostra de atividade 3",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-4-DyR6x8un.png",
+      "alt": "Amostra de atividade 4",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-5-Bk62JwBK.png",
+      "alt": "Amostra de atividade 5",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-6-C9SVogpo.png",
+      "alt": "Amostra de atividade 6",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-7-B3PmXLAg.png",
+      "alt": "Amostra de atividade 7",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-1-Bb7Emq4H.png",
+      "alt": "Amostra de atividade 1",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-2-DCxhngeK.png",
+      "alt": "Amostra de atividade 2",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-3-9l1116Mc.png",
+      "alt": "Amostra de atividade 3",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-4-DyR6x8un.png",
+      "alt": "Amostra de atividade 4",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-5-Bk62JwBK.png",
+      "alt": "Amostra de atividade 5",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-6-C9SVogpo.png",
+      "alt": "Amostra de atividade 6",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/amostra-7-B3PmXLAg.png",
+      "alt": "Amostra de atividade 7",
+      "class": "w-full h-full object-cover"
+    },
+    {
+      "src": "https://interpretacao.lovable.app/assets/produto-mockup-ri7laRSR.png",
+      "alt": "Kit Premium — Interpretação e Produção de Texto 1º ao 5º ano",
+      "class": "w-64 sm:w-72 mx-auto mb-5 mt-3 proteger"
+    }
+  ],
+  "listItems": [
+    "✨ BÔNUS EXCLUSIVO: Atividades de Leitura Fluente (1º ao 5º ano)",
+    "✨ BÔNUS EXCLUSIVO: Gêneros Textuais completos — fábula, poema, notícia, carta, conto, tirinha e mais (1º ao 5º ano)",
+    "Alinhado 100% à BNCC",
+    "PDF editável — imprime quantas vezes quiser",
+    "Acesso vitalício",
+    "267+ atividades de interpretação e produção de texto",
+    "Do 1º ao 5º ano",
+    "PDF editável — imprime quantas vezes quiser",
+    "Gabarito completo (Bônus)",
+    "Ficha de acompanhamento de leitura (Bônus)",
+    "Sequência didática sugerida (Bônus)",
+    "Acesso vitalício",
+    "Atividades de Leitura Fluente (1º ao 5º ano)",
+    "Gêneros Textuais completos — fábula, poema, notícia, carta, conto e mais"
+  ],
+  "checkoutLinks": [
+    "https://checkout.doppus.app/15560917?utm_source=&utm_campaign=&utm_medium=&utm_content=%3A%3AIwY2xjawRxkD5leHRuA2FlbQIxMABicmlkETFqMVBDVDFYRmx5UTRuRE9Oc3J0YwZhcHBfaWQPNTQxNjM5NDkzODg5MDI1AAEe4tA5P-AvfQvp7I9ekCswm6tqXuewmKF1HKGGio3gQ1LgJxfzwGl8SU4qM1o_aem_K2wHXGRfZno1j3zQ8uMCJg%3A%3A&utm_term=",
+    "https://checkout.doppus.app/49532767?utm_source=&utm_campaign=&utm_medium=&utm_content=%3A%3AIwY2xjawRxkD5leHRuA2FlbQIxMABicmlkETFqMVBDVDFYRmx5UTRuRE9Oc3J0YwZhcHBfaWQPNTQxNjM5NDkzODg5MDI1AAEe4tA5P-AvfQvp7I9ekCswm6tqXuewmKF1HKGGio3gQ1LgJxfzwGl8SU4qM1o_aem_K2wHXGRfZno1j3zQ8uMCJg%3A%3A&utm_term=",
+    "https://checkout.doppus.app/49532767?utm_source=&utm_campaign=&utm_medium=&utm_content=%3A%3AIwY2xjawRxkD5leHRuA2FlbQIxMABicmlkETFqMVBDVDFYRmx5UTRuRE9Oc3J0YwZhcHBfaWQPNTQxNjM5NDkzODg5MDI1AAEe4tA5P-AvfQvp7I9ekCswm6tqXuewmKF1HKGGio3gQ1LgJxfzwGl8SU4qM1o_aem_K2wHXGRfZno1j3zQ8uMCJg%3A%3A&utm_term="
+  ],
+  "ctas": [
+    {
+      "href": "#para-quem",
+      "class": "inline-block bg-primary text-primary-foreground font-extrabold text-lg px-10 py-4 rounded-full shadow-lg hover:brightness-110 transition-all duration-200 hover:scale-105",
+      "text": "Quero meu kit por R$17,90 →"
+    },
+    {
+      "href": "https://checkout.doppus.app/49532767?utm_source=&utm_campaign=&utm_medium=&utm_content=%3A%3AIwY2xjawRxkD5leHRuA2FlbQIxMABicmlkETFqMVBDVDFYRmx5UTRuRE9Oc3J0YwZhcHBfaWQPNTQxNjM5NDkzODg5MDI1AAEe4tA5P-AvfQvp7I9ekCswm6tqXuewmKF1HKGGio3gQ1LgJxfzwGl8SU4qM1o_aem_K2wHXGRfZno1j3zQ8uMCJg%3A%3A&utm_term=",
+      "class": "inline-block bg-card text-primary font-extrabold text-lg px-10 py-4 rounded-full shadow-lg hover:brightness-105 transition-all hover:scale-105",
+      "text": "Garantir minhas 267 atividades por R$17,90"
+    }
+  ]
+}
