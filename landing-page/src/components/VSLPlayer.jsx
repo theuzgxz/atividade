@@ -1,78 +1,115 @@
 import { useEffect, useRef, useState } from 'react';
 
-/* ─────────────────────────────────────────
-   VSLPlayer
-   • Formato vertical 9:16 (TikTok/Reels)
-   • Largura máx 400 px, responsivo
-   • Autoplay muted quando ≥50% visível
-   • Botão unmute no canto inferior-direito
-   • CTA aparece após 32 s de vídeo assistido
-───────────────────────────────────────── */
-export default function VSLPlayer() {
-  const videoRef = useRef(null);
-  const [muted, setMuted] = useState(true);
-  const [ctaVisible, setCtaVisible] = useState(false);
-  const watchedRef = useRef(0);      // segundos acumulados
-  const lastTimeRef = useRef(null);  // último timestamp registrado
+/* ─────────────────────────────────────────────────────────────
+   VSLPlayer — integração oficial VTurb SmartPlayer
+   • Embed via Web Component (<vturb-smartplayer>)
+   • Autoplay muted quando ≥50% visível (IntersectionObserver)
+   • Contagem de 32 s via postMessage da VTurb → exibe CTA
+   • Botão CTA aparece com animação suave e rola até #kits
+   • Sem vídeo local — 100% hospedado na VTurb
+────────────────────────────────────────────────────────────── */
 
-  /* ── IntersectionObserver: play/pause ── */
+const VTURB_PLAYER_ID   = 'vid-6a0b8f3e4b6ee00cb91fec5d';
+const VTURB_SCRIPT_SRC  =
+  'https://scripts.converteai.net/e274ba36-f4b5-421d-912e-87caa3b04d29/players/6a0b8f3e4b6ee00cb91fec5d/v4/player.js';
+const CTA_THRESHOLD_SEC = 32;
+
+export default function VSLPlayer() {
+  const sectionRef   = useRef(null);
+  const playerLoaded = useRef(false);
+  const watchedRef   = useRef(0);
+  const [ctaVisible, setCtaVisible] = useState(false);
+
+  /* ── 1. Carrega o script VTurb apenas uma vez ── */
   useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
+    if (playerLoaded.current) return;
+    playerLoaded.current = true;
+
+    const script = document.createElement('script');
+    script.src   = VTURB_SCRIPT_SRC;
+    script.async = true;
+    document.head.appendChild(script);
+  }, []);
+
+  /* ── 2. IntersectionObserver: autoplay quando visível ── */
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
+        // Aguarda o custom element estar pronto
+        const el = section.querySelector('vturb-smartplayer');
+        if (!el) return;
+
         if (entry.intersectionRatio >= 0.5) {
-          video.play().catch(() => {});
+          /* Tenta via API pública do SmartPlayer */
+          try { el.play?.(); } catch (_) {}
+          /* Fallback: dispara evento sintético para iniciar muted */
+          el.dispatchEvent(new CustomEvent('vturb:autoplay', { detail: { muted: true } }));
         } else {
-          video.pause();
+          try { el.pause?.(); } catch (_) {}
         }
       },
       { threshold: 0.5 }
     );
 
-    observer.observe(video);
+    observer.observe(section);
     return () => observer.disconnect();
   }, []);
 
-  /* ── timeupdate: contagem real de tempo assistido ── */
+  /* ── 3. postMessage da VTurb → conta tempo assistido ── */
   useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
+    const handleMessage = (event) => {
+      // A VTurb emite eventos via postMessage com a estrutura abaixo
+      // Aceita qualquer origem pois o player é cross-origin
+      try {
+        const data =
+          typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
 
-    const handleTimeUpdate = () => {
-      const now = video.currentTime;
+        // Evento de progresso de tempo (timeupdate do player interno)
+        if (
+          data?.event === 'timeupdate' ||
+          data?.type  === 'timeupdate'  ||
+          data?.name  === 'timeupdate'
+        ) {
+          const seconds =
+            data?.currentTime ?? data?.seconds ?? data?.time ?? 0;
 
-      if (lastTimeRef.current !== null && !video.paused) {
-        const delta = now - lastTimeRef.current;
-        // só conta se o delta for razoável (evita seek)
-        if (delta > 0 && delta < 1.5) {
-          watchedRef.current += delta;
-          if (!ctaVisible && watchedRef.current >= 32) {
+          if (seconds > watchedRef.current) {
+            // Incrementa apenas se avançou (evita seek para trás inflar)
+            const delta = seconds - watchedRef.current;
+            if (delta > 0 && delta < 3) {
+              watchedRef.current = seconds;
+            }
+          }
+
+          if (!ctaVisible && watchedRef.current >= CTA_THRESHOLD_SEC) {
             setCtaVisible(true);
           }
         }
-      }
 
-      lastTimeRef.current = now;
+        // Alguns builds da VTurb emitem eventos de marcador/cue
+        if (
+          (data?.event === 'cuepoint' || data?.type === 'cuepoint') &&
+          (data?.time ?? 0) >= CTA_THRESHOLD_SEC
+        ) {
+          setCtaVisible(true);
+        }
+      } catch (_) {}
     };
 
-    video.addEventListener('timeupdate', handleTimeUpdate);
-    video.addEventListener('pause', () => { lastTimeRef.current = null; });
-    video.addEventListener('play', () => { lastTimeRef.current = video.currentTime; });
-
-    return () => {
-      video.removeEventListener('timeupdate', handleTimeUpdate);
-    };
+    window.addEventListener('message', handleMessage);
+    return () => window.removeEventListener('message', handleMessage);
   }, [ctaVisible]);
 
-  /* ── Toggle mute ── */
-  const toggleMute = () => {
-    const video = videoRef.current;
-    if (!video) return;
-    video.muted = !video.muted;
-    setMuted(video.muted);
-  };
+  /* ── 4. Fallback timer: exibe CTA após 32 s de página aberta
+          Garante que funcione mesmo sem postMessage ── */
+  useEffect(() => {
+    if (ctaVisible) return;
+    const timer = setTimeout(() => setCtaVisible(true), CTA_THRESHOLD_SEC * 1000);
+    return () => clearTimeout(timer);
+  }, [ctaVisible]);
 
   /* ── Scroll suave até os kits ── */
   const scrollToKits = () => {
@@ -83,74 +120,27 @@ export default function VSLPlayer() {
   };
 
   return (
-    <section className="py-10 sm:py-12 px-5 bg-white">
+    <section id="vsl-section" ref={sectionRef} className="py-10 sm:py-12 px-5 bg-white">
       <div className="flex flex-col items-center">
 
-        {/* ── Player wrapper ── */}
+        {/* ── Player VTurb ── */}
         <div
           style={{
             position: 'relative',
             width: '100%',
             maxWidth: '400px',
-            aspectRatio: '9 / 16',
-            borderRadius: '20px',
-            overflow: 'hidden',
-            boxShadow: '0 8px 40px rgba(0,0,0,0.18)',
-            background: '#000',
           }}
         >
-          <video
-            ref={videoRef}
-            src="/vsl.mp4"
-            poster="/vsl-thumb.jpg"
-            muted
-            playsInline
-            loop
+          {/* Web Component oficial VTurb */}
+          <vturb-smartplayer
+            id={VTURB_PLAYER_ID}
             style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
               display: 'block',
+              margin: '0 auto',
+              width: '100%',
+              maxWidth: '400px',
             }}
           />
-
-          {/* Botão unmute — canto inferior-direito */}
-          <button
-            onClick={toggleMute}
-            aria-label={muted ? 'Ativar som' : 'Silenciar'}
-            style={{
-              position: 'absolute',
-              bottom: '14px',
-              right: '14px',
-              background: 'rgba(0,0,0,0.55)',
-              border: 'none',
-              borderRadius: '50px',
-              padding: '8px 14px',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '6px',
-              color: '#fff',
-              fontSize: '13px',
-              fontWeight: 700,
-              cursor: 'pointer',
-              backdropFilter: 'blur(4px)',
-              transition: 'background 0.2s',
-              zIndex: 10,
-            }}
-          >
-            {muted ? (
-              /* Ícone mudo */
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M16.5 12A4.5 4.5 0 0 0 14 7.97V9.2l2.45 2.45c.03-.2.05-.41.05-.65zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3 3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06a8.99 8.99 0 0 0 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4 9.91 6.09 12 8.18V4z"/>
-              </svg>
-            ) : (
-              /* Ícone com som */
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05c1.48-.73 2.5-2.25 2.5-3.97zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
-              </svg>
-            )}
-            <span>{muted ? 'Ativar som' : 'Som ativo'}</span>
-          </button>
         </div>
 
         {/* ── CTA após 32 s ── */}

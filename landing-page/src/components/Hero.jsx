@@ -85,10 +85,10 @@ export default function Hero() {
             <div className="flex flex-col items-center lg:items-start gap-3">
               <a
                 id="hero-cta-btn"
-                href="#kits"
+                href="#vsl-section"
                 onClick={(e) => {
                   e.preventDefault();
-                  document.querySelector('#kits')?.scrollIntoView({ behavior: 'smooth' });
+                  document.querySelector('#vsl-section')?.scrollIntoView({ behavior: 'smooth' });
                 }}
                 className="btn-cta btn-cta-pulse w-full sm:w-auto text-lg px-8 py-4"
               >
