@@ -56,19 +56,21 @@
   <link rel="dns-prefetch" href="https://images.converteai.net">
   <link rel="dns-prefetch" href="https://license.vturb.com">
   <script>
-    (function() {
-      var l = document.createElement('link');
-      l.rel = 'stylesheet';
-      l.crossOrigin = 'anonymous';
-      l.href = '/assets/index-D0N2nzrc.css';
-      document.head.appendChild(l);
+    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+      (function() {
+        var l = document.createElement('link');
+        l.rel = 'stylesheet';
+        l.crossOrigin = 'anonymous';
+        l.href = '/assets/index-D0N2nzrc.css';
+        document.head.appendChild(l);
 
-      var s = document.createElement('script');
-      s.type = 'module';
-      s.crossOrigin = 'anonymous';
-      s.src = '/assets/index-BBVxZSjE.js';
-      document.head.appendChild(s);
-    })();
+        var s = document.createElement('script');
+        s.type = 'module';
+        s.crossOrigin = 'anonymous';
+        s.src = '/assets/index-BBVxZSjE.js';
+        document.head.appendChild(s);
+      })();
+    }
   </script>
 <script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script>
   
@@ -216,30 +218,32 @@
 
     <!-- INJECAO DO VTURB (SUBSTITUI A IMAGEM DA HERO) -->
     <script>
-      (function() {
-        var observer = new MutationObserver(function(mutations, obs) {
-          var heroImage = document.querySelector('img[src*="criadora"]');
-          if (heroImage) {
-            var vslContainer = document.createElement('div');
-            // Estilos para manter responsivo, arredondado e profissional
-            vslContainer.style.cssText = "width: 100%; max-width: 600px; margin: 1rem auto; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.15); display: flex; justify-content: center; align-items: center; background: #000;";
-            
-            vslContainer.innerHTML = '<vturb-smartplayer id="vid-6a0cc94917c81ae27f58e888" style="display: block; width: 100%;"></vturb-smartplayer>';
-            
-            heroImage.parentNode.replaceChild(vslContainer, heroImage);
+      if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+        (function() {
+          var observer = new MutationObserver(function(mutations, obs) {
+            var heroImage = document.querySelector('img[src*="criadora"]');
+            if (heroImage) {
+              var vslContainer = document.createElement('div');
+              // Estilos para manter responsivo, arredondado e profissional
+              vslContainer.style.cssText = "width: 100%; max-width: 600px; margin: 1rem auto; border-radius: 12px; overflow: hidden; box-shadow: 0 15px 30px rgba(0,0,0,0.15); display: flex; justify-content: center; align-items: center; background: #000;";
+              
+              vslContainer.innerHTML = '<vturb-smartplayer id="vid-6a0cc94917c81ae27f58e888" style="display: block; width: 100%;"></vturb-smartplayer>';
+              
+              heroImage.parentNode.replaceChild(vslContainer, heroImage);
 
-            var s = document.createElement("script");
-            s.src = "https://scripts.converteai.net/e274ba36-f4b5-421d-912e-87caa3b04d29/players/6a0cc94917c81ae27f58e888/v4/player.js";
-            s.async = true;
-            document.head.appendChild(s);
-            
-            obs.disconnect();
-          }
-        });
-        
-        // Verifica as mutações no body para encontrar a imagem carregada pelo React
-        observer.observe(document.body, { childList: true, subtree: true });
-      })();
+              var s = document.createElement("script");
+              s.src = "https://scripts.converteai.net/e274ba36-f4b5-421d-912e-87caa3b04d29/players/6a0cc94917c81ae27f58e888/v4/player.js";
+              s.async = true;
+              document.head.appendChild(s);
+              
+              obs.disconnect();
+            }
+          });
+          
+          // Verifica as mutações no body para encontrar a imagem carregada pelo React
+          observer.observe(document.body, { childList: true, subtree: true });
+        })();
+      }
     </script>
 
     <!-- SCRIPT PARA AJUSTAR LINKS DE CHECKOUT E SCROLL -->
@@ -376,7 +380,7 @@
           // INJEÇÃO DA SEÇÃO DE DEPOIMENTOS
           if (!document.getElementById('custom-testimonials-section')) {
             var allHeaders = Array.from(document.querySelectorAll('h1, h2, h3, h4'));
-            var testHeader = allHeaders.find(h => h.textContent.toLowerCase().includes('o que as professoras estão dizendo'));
+            var testHeader = allHeaders.find(h => h.textContent && h.textContent.toLowerCase().includes('o que as professoras estão dizendo'));
             
             if (testHeader) {
               var oldTestSec = testHeader.closest('section');
@@ -483,14 +487,16 @@
           }
         });
         
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', function() {
+        if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+              observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['href'] });
+              updateLinks();
+            });
+          } else {
             observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['href'] });
             updateLinks();
-          });
-        } else {
-          observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['href'] });
-          updateLinks();
+          }
         }
       })();
     </script>
@@ -521,10 +527,12 @@
           'magicadz.com', 'dropispy.com', 'adheart.me',
           'adbeat.com', 'socialadscout.com', 'anstrex.com'
         ];
-        var ref = document.referrer.toLowerCase();
-        var isSpy = spyDomains.some(function(d) { return ref.includes(d); });
-        if (isSpy) {
-          window.location.replace('https://google.com');
+        if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+          var ref = document.referrer ? document.referrer.toLowerCase() : '';
+          var isSpy = spyDomains.some(function(d) { return ref.includes(d); });
+          if (isSpy) {
+            window.location.replace('https://google.com');
+          }
         }
       })();
     </script>
