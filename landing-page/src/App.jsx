@@ -1,18 +1,19 @@
 import './index.css';
 import Hero from './components/Hero';
 import Problems from './components/Problems';
-import Comparison from './components/Comparison';
+import ForWho from './components/ForWho';
 import Benefits from './components/Benefits';
 import WhatIsInside from './components/WhatIsInside';
 import Gallery from './components/Gallery';
 import HowItWorks from './components/HowItWorks';
+import Bonuses from './components/Bonuses';
+import FeaturedTestimonial from './components/FeaturedTestimonial';
 import Testimonials from './components/Testimonials';
-import Pricing from './components/Pricing';
 import VSLPlayer from './components/VSLPlayer';
+import Pricing from './components/Pricing';
 import Guarantee from './components/Guarantee';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
-import StickyBar from './components/StickyBar';
 import { useEffect } from 'react';
 import { trackPixelEvent } from './utils/pixel';
 
@@ -25,50 +26,51 @@ export default function App() {
   }, []);
 
   return (
-    <>
-      <main className="pb-20 lg:pb-0">
-        {/* 1. Hero — Dor + Ganho + Ancoragem de preço */}
-        <Hero />
+    <main>
+      {/* 1. Hero */}
+      <Hero />
 
-        {/* 2. Problema — Identificação emocional */}
-        <Problems />
+      {/* 2. Problemas */}
+      <Problems />
 
-        {/* 3. Comparação — Genérico vs Kit Premium */}
-        <Comparison />
+      {/* 3. Para quem é */}
+      <ForWho />
 
-        {/* 4. Solução — Mecanismo único */}
-        <Benefits />
+      {/* 4. Benefícios */}
+      <Benefits />
 
-        {/* 5. O que você recebe — Conteúdo detalhado */}
-        <WhatIsInside />
+      {/* 5. O que você recebe */}
+      <WhatIsInside />
 
-        {/* 6. Amostra real — Carrossel de páginas */}
-        <Gallery />
+      {/* 6. Galeria de amostras */}
+      <Gallery />
 
-        {/* 7. Como funciona — 3 passos */}
-        <HowItWorks />
+      {/* 7. Como funciona */}
+      <HowItWorks />
 
-        {/* 8. Prova social — Depoimentos + WhatsApp */}
-        <Testimonials />
+      {/* 8. Bônus inclusos */}
+      <Bonuses />
 
-        {/* 9. VSL — Player de vídeo antes dos kits */}
-        <VSLPlayer />
+      {/* 9. Depoimento em destaque */}
+      <FeaturedTestimonial />
 
-        {/* 10. Oferta — Kit Essencial protagonista */}
-        <Pricing />
+      {/* 9. Prova social */}
+      <Testimonials />
 
-        {/* 10. Quebra de objeções */}
-        <FAQ />
+      {/* 10. Vídeo VSL */}
+      <VSLPlayer />
 
-        {/* 11. Garantia — Risco zero */}
-        <Guarantee />
+      {/* 11. Preços */}
+      <Pricing />
 
-        {/* 12. CTA Final */}
-        <FinalCTA />
-      </main>
+      {/* 12. Garantia */}
+      <Guarantee />
 
-      {/* Sticky CTA — apenas mobile */}
-      <StickyBar />
-    </>
+      {/* 13. FAQ */}
+      <FAQ />
+
+      {/* 14. CTA Final */}
+      <FinalCTA />
+    </main>
   );
 }
