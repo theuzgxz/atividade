@@ -4,22 +4,22 @@ import { buildCheckoutUrl } from '../utils/utm';
 import { CheckIcon, LockIcon } from './Icons';
 
 const essentialItems = [
-  '267+ atividades de interpretação e produção de texto',
-  'Kits do 1º ao 5º ano — tudo no mesmo download',
-  'PDF pronto para imprimir — colorido ou P&B',
-  'Gabarito completo incluso',
-  'Ficha de acompanhamento de leitura',
-  'Sequência didática sugerida',
-  'Acesso vitalício — baixe quantas vezes quiser',
+  '267+ actividades de comprensión y producción de texto',
+  'Kits de 1ro a 5to grado — todo en la misma descarga',
+  'PDF listo para imprimir — a color o B&N',
+  'Respuestas completas incluidas',
+  'Ficha de seguimiento de lectura',
+  'Secuencia didáctica sugerida',
+  'Acceso vitalicio — descarga cuantas veces quieras',
 ];
 
 const premiumItems = [
-  'Tudo do Kit Essencial',
-  '✨ BÔNUS: Atividades de Leitura Fluente (1º ao 5º ano)',
-  '✨ BÔNUS: Gêneros Textuais completos — fábula, poema, notícia, carta, conto, tirinha e mais',
-  'Alinhado 100% à BNCC',
-  'PDF pronto para imprimir',
-  'Acesso vitalício',
+  'Todo lo del Kit Esencial',
+  '✨ BONO: Actividades de Lectura Fluida (1ro a 5to grado)',
+  '✨ BONO: Géneros Textuales completos — fábula, poema, noticia, carta, cuento, cómic y más',
+  'Alineado 100% al currículo de primaria',
+  'PDF listo para imprimir',
+  'Acceso vitalicio',
 ];
 
 export default function Pricing() {
@@ -28,38 +28,32 @@ export default function Pricing() {
       <div className="max-w-5xl mx-auto">
 
         <h2 className="text-2xl sm:text-3xl font-display font-bold text-center text-foreground mb-2">
-          Escolha seu kit 🎒
+          Elige tu kit 🎒
         </h2>
         <p className="text-center text-muted-foreground font-medium mb-10 max-w-lg mx-auto">
-          Material pronto, organizado e alinhado à BNCC — do 1º ao 5º ano. Acesso imediato após o pagamento.
+          Material listo, organizado y alineado al currículo — de 1ro a 5to grado. Acceso inmediato tras el pago.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
 
           {/* Kit Essencial */}
-          <div className="bg-white rounded-3xl shadow-card border-2 border-primary/20 p-7 flex flex-col text-center">
+          <div className="bg-white rounded-3xl p-7 border border-border shadow-card flex flex-col">
             <div className="mb-4">
-              <span className="badge bg-primary/10 text-primary border border-primary/20 mb-3">
-                💸 MAIS ECONÔMICO
-              </span>
-              <h3 className="font-display font-bold text-2xl text-foreground mb-1">Kit Essencial</h3>
-              <p className="text-muted-foreground text-sm font-semibold uppercase tracking-wide">
-                267+ atividades · 1º ao 5º ano
+              <span className="badge bg-gray-100 text-foreground border border-border mb-3">Kit Esencial</span>
+              <p className="text-muted-foreground text-sm font-medium tracking-wide">
+                267+ actividades listas para imprimir
               </p>
             </div>
 
             <div className="mb-5">
-              <p className="text-muted-foreground line-through text-base font-medium">De R$97,00</p>
-              <p className="font-display font-extrabold text-5xl text-primary leading-none mt-1">R$17,90</p>
-              <span className="inline-block mt-2 bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">
-                Você economiza R$79,10
-              </span>
+              <p className="text-muted-foreground line-through text-base font-medium">De $19.90</p>
+              <p className="font-display font-extrabold text-5xl text-foreground leading-none mt-1">$4.90</p>
             </div>
 
             <ul className="text-left space-y-2.5 mb-7 flex-1">
               {essentialItems.map((item, i) => (
                 <li key={i} className="flex items-start gap-2.5">
-                  <CheckIcon size={18} className="text-secondary flex-shrink-0 mt-0.5" />
+                  <CheckIcon size={18} className="text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-foreground font-semibold text-sm">{item}</span>
                 </li>
               ))}
@@ -70,33 +64,33 @@ export default function Pricing() {
               href={buildCheckoutUrl(CHECKOUT_LINKS.essencial)}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => trackPixelEvent('InitiateCheckout', { value: 17.90, currency: 'BRL', content_name: 'Kit Essencial' })}
-              className="btn-cta btn-cta-pulse w-full text-base py-4 mb-3"
+              onClick={() => trackPixelEvent('InitiateCheckout', { value: 4.90, currency: 'USD', content_name: 'Kit Esencial' })}
+              className="btn-viral w-full text-base py-4 mb-3 rounded-full"
             >
-              📚 Quero o Kit Essencial
+              Quiero el Kit Esencial
             </a>
             <p className="text-xs text-muted-foreground font-medium flex items-center justify-center gap-1">
-              <LockIcon size={12} className="text-muted-foreground" /> Compra segura · Acesso imediato · Garantia de 7 dias
+              <LockIcon size={12} className="text-muted-foreground" /> Compra segura · Acceso inmediato
             </p>
           </div>
 
-          {/* Kit Premium */}
-          <div className="bg-white rounded-3xl shadow-card border-2 border-secondary/30 p-7 flex flex-col text-center">
-            <div className="mb-4">
-              <span className="badge bg-secondary/10 text-secondary border border-secondary/20 mb-3">
-                ⭐ MAIS COMPLETO
-              </span>
-              <h3 className="font-display font-bold text-2xl text-foreground mb-1">Kit Premium</h3>
-              <p className="text-muted-foreground text-sm font-semibold uppercase tracking-wide">
-                267+ atividades + materiais exclusivos
+          {/* Kit Premium — destaque */}
+          <div className="bg-white rounded-3xl p-7 border-2 border-secondary shadow-card ring-2 ring-secondary/20 flex flex-col relative overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 bg-secondary text-white text-center text-xs font-bold py-1.5 tracking-wide">
+              ⭐ MÁS VENDIDO
+            </div>
+            <div className="mb-4 mt-6">
+              <span className="badge bg-secondary/10 text-secondary border border-secondary/20 mb-3">Kit Premium</span>
+              <p className="text-muted-foreground text-sm font-medium tracking-wide">
+                267+ actividades + materiales exclusivos
               </p>
             </div>
 
             <div className="mb-5">
-              <p className="text-muted-foreground line-through text-base font-medium">De R$157,00</p>
-              <p className="font-display font-extrabold text-5xl text-secondary leading-none mt-1">R$26,90</p>
+              <p className="text-muted-foreground line-through text-base font-medium">De $29.90</p>
+              <p className="font-display font-extrabold text-5xl text-secondary leading-none mt-1">$6.90</p>
               <span className="inline-block mt-2 bg-secondary/10 text-secondary text-xs font-bold px-3 py-1 rounded-full">
-                Só R$9 a mais que o Essencial
+                Solo $2 más que el Esencial
               </span>
             </div>
 
@@ -114,13 +108,13 @@ export default function Pricing() {
               href={buildCheckoutUrl(CHECKOUT_LINKS.premium)}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => trackPixelEvent('InitiateCheckout', { value: 26.90, currency: 'BRL', content_name: 'Kit Premium' })}
+              onClick={() => trackPixelEvent('InitiateCheckout', { value: 6.90, currency: 'USD', content_name: 'Kit Premium' })}
               className="btn-secondary w-full text-base py-4 mb-3 rounded-full"
             >
-              🎯 Quero o Kit Premium
+              🎯 Quiero el Kit Premium
             </a>
             <p className="text-xs text-muted-foreground font-medium flex items-center justify-center gap-1">
-              <LockIcon size={12} className="text-muted-foreground" /> Compra segura · Acesso imediato · Garantia de 7 dias
+              <LockIcon size={12} className="text-muted-foreground" /> Compra segura · Acceso inmediato · Garantía de 7 días
             </p>
           </div>
 

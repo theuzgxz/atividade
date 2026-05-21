@@ -9,7 +9,7 @@ import HowItWorks from './components/HowItWorks';
 import Bonuses from './components/Bonuses';
 import FeaturedTestimonial from './components/FeaturedTestimonial';
 import Testimonials from './components/Testimonials';
-import VSLPlayer from './components/VSLPlayer';
+import Author from './components/Author';
 import Pricing from './components/Pricing';
 import Guarantee from './components/Guarantee';
 import FAQ from './components/FAQ';
@@ -57,8 +57,8 @@ export default function App() {
       {/* 9. Prova social */}
       <Testimonials />
 
-      {/* 10. Vídeo VSL */}
-      <VSLPlayer />
+      {/* 10. Quem é a autora */}
+      <Author />
 
       {/* 11. Preços */}
       <Pricing />

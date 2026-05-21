@@ -1,33 +1,33 @@
 const pains = [
   {
-    icon: '⏰',
-    title: 'Horas procurando textos que não chegam a lugar nenhum',
-    desc: 'Você abre o Google, o Pinterest, o Facebook — e no fim do dia ainda não tem nada com qualidade pedagógica.',
+    icon: '🔍',
+    title: 'Horas buscando textos que no llegan a ningún lado',
+    desc: 'Abres Google, Pinterest, Facebook — y al final del día aún no tienes nada con calidad pedagógica real.',
   },
   {
-    icon: '📄',
-    title: 'Atividades genéricas que os alunos fazem no automático',
-    desc: 'Material sem progressão. Os alunos copiam trecho, entregam a folha e não desenvolvem leitura de verdade.',
+    icon: '😶',
+    title: 'Actividades genéricas que los alumnos hacen en automático',
+    desc: 'Material sin progresión. Los niños copian el texto, entregan la hoja y no desarrollan comprensión lectora de verdad.',
   },
   {
     icon: '🗓️',
-    title: 'Planejamento construído do zero toda semana',
-    desc: 'Domingo à noite tentando montar o que vai aplicar na segunda. Isso é energia que você precisava para ensinar.',
+    title: 'Planificación construida desde cero cada semana',
+    desc: 'Domingo por la noche intentando armar lo que vas a aplicar el lunes. Esa es energía que necesitabas para enseñar.',
   },
   {
     icon: '📋',
-    title: 'Material fora da BNCC — e você sente isso na hora de aplicar',
-    desc: 'Bonito por fora, mas sem alinhamento curricular. Difícil de justificar pedagogicamente.',
+    title: 'Material no alineado al currículo — y lo sientes al aplicarlo',
+    desc: 'Bonito por fuera, pero sin base curricular. Difícil de justificar pedagógicamente ante directores y padres.',
   },
   {
     icon: '😔',
-    title: 'Alunos desinteressados e aulas que não fluem',
-    desc: 'Quando o material não é bom, o engajamento cai. Você começa a improvisar e a aula perde o fio.',
+    title: 'Alumnos desinteresados y clases que no fluyen',
+    desc: 'Cuando el material no es bueno, el engajamiento cae. Empiezas a improvisar y la clase pierde el hilo.',
   },
   {
-    icon: '🔄',
-    title: 'Improviso constante por falta de material pronto',
-    desc: 'Improvisação não é criatividade — é desgaste. E você merece ter material profissional em mãos.',
+    icon: '😩',
+    title: 'Improvisación constante por falta de material listo',
+    desc: 'Improvisar no es creatividad — es desgaste. Y tú mereces tener material profesional en tus manos.',
   },
 ];
 
@@ -35,14 +35,12 @@ export default function Problems() {
   return (
     <section className="py-14 sm:py-16 px-5 bg-section-cream">
       <div className="section-wrapper">
-
-        {/* Header */}
         <div className="text-center mb-10">
           <h2 className="section-title mb-3">
-            Você também sente que planejar aula<br className="hidden sm:block" /> virou um desgaste?
+            ¿También sientes que planificar clases<br className="hidden sm:block" /> se ha vuelto un agotamiento?
           </h2>
           <p className="section-subtitle max-w-xl mx-auto">
-            Se você se identificou com algum dos cenários abaixo, você está no lugar certo.
+            Si te identificas con alguno de los escenarios de abajo, estás en el lugar correcto.
           </p>
         </div>
 
@@ -74,7 +72,7 @@ export default function Problems() {
         <div className="mt-10 text-center">
           <div className="inline-block bg-primary/8 border border-primary/20 rounded-2xl px-6 py-4 max-w-xl">
             <p className="text-foreground font-semibold text-base leading-relaxed">
-              Você virou professora para <strong>ensinar</strong> — não para passar horas montando atividade.
+              Elegiste ser maestra para <strong>enseñar</strong> — no para pasar horas armando actividades.
             </p>
           </div>
         </div>

@@ -2,31 +2,31 @@ const bonuses = [
   {
     bg: 'bg-mint',
     badgeBg: 'bg-primary text-primary-foreground',
-    badge: 'BÔNUS',
+    badge: 'BONO',
     emoji: '📋',
-    title: 'Gabarito completo',
-    desc: 'Todas as respostas organizadas para corrigir rápido e com segurança.',
-    value: 'R$9,90',
+    title: 'Respuestas completas',
+    desc: 'Todas las respuestas organizadas para corregir rápido y con seguridad.',
+    value: '$2.90',
     premium: false,
   },
   {
     bg: 'bg-lilac',
     badgeBg: 'bg-primary text-primary-foreground',
-    badge: 'BÔNUS',
+    badge: 'BONO',
     emoji: '📊',
-    title: 'Ficha de acompanhamento de leitura',
-    desc: 'Registro simples do progresso de cada aluno em interpretação e escrita.',
-    value: 'R$7,90',
+    title: 'Ficha de seguimiento de lectura',
+    desc: 'Registro simple del progreso de cada alumno en comprensión y escritura.',
+    value: '$1.90',
     premium: false,
   },
   {
     bg: 'bg-honey',
     badgeBg: 'bg-primary text-primary-foreground',
-    badge: 'BÔNUS',
+    badge: 'BONO',
     emoji: '📅',
-    title: 'Sequência didática sugerida',
-    desc: 'Como usar as 267+ atividades ao longo do ano sem perder o fio pedagógico.',
-    value: 'R$12,90',
+    title: 'Secuencia didáctica sugerida',
+    desc: 'Cómo usar las 267+ actividades a lo largo del año sin perder el hilo pedagógico.',
+    value: '$3.90',
     premium: false,
   },
   {
@@ -34,9 +34,9 @@ const bonuses = [
     badgeBg: 'bg-[#7C3AED] text-white',
     badge: 'Exclusivo Premium',
     emoji: '📖',
-    title: 'Atividades de Leitura Fluente',
-    desc: 'Sequências de leitura progressiva para desenvolver fluência, entonação e compreensão oral — do 1º ao 5º ano.',
-    value: 'R$14,90',
+    title: 'Actividades de Lectura Fluida',
+    desc: 'Secuencias de lectura progresiva para desarrollar fluidez, entonación y comprensión oral — de 1ro a 5to grado.',
+    value: '$4.90',
     premium: true,
   },
   {
@@ -44,9 +44,9 @@ const bonuses = [
     badgeBg: 'bg-[#7C3AED] text-white',
     badge: 'Exclusivo Premium',
     emoji: '📝',
-    title: 'Gêneros Textuais — 1º ao 5º ano',
-    desc: 'Atividades completas por gênero: fábula, poema, notícia, carta, conto, tirinha, receita e muito mais. Alinhado à BNCC.',
-    value: 'R$19,90',
+    title: 'Géneros Textuales — 1ro a 5to grado',
+    desc: 'Actividades completas por género: fábula, poema, noticia, carta, cuento, cómic y mucho más. Alineado a primaria.',
+    value: '$5.90',
     premium: true,
   },
 ];
@@ -56,7 +56,7 @@ export default function Bonuses() {
     <section className="py-12 px-6 bg-secondary/10 bg-confetti">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl sm:text-3xl text-center text-foreground mb-8">
-          Quem compra hoje leva o dobro 🎁
+          Quien compra hoy se lleva el doble 🎁
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -77,7 +77,7 @@ export default function Bonuses() {
         </div>
 
         <p className="text-center text-foreground font-extrabold text-lg mt-8">
-          Tudo isso incluso no seu kit hoje ✨
+          Todo esto incluido en tu Mega Pack hoy ✨
         </p>
       </div>
     </section>

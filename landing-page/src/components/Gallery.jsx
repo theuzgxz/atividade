@@ -1,19 +1,12 @@
-import { IMAGES } from '../config';
-
-// Todas as imagens disponíveis
 const allImages = [
-  ...IMAGES.amostras,
-  { src: '/assets/images/gallery_8.png', alt: 'Amostra de atividade 8' },
-  { src: '/assets/images/gallery_9.png', alt: 'Amostra de atividade 9' },
-  { src: '/assets/images/gallery_10.png', alt: 'Amostra de atividade 10' },
-  { src: '/assets/images/gallery_11.png', alt: 'Amostra de atividade 11' },
-  { src: '/assets/images/gallery_12.png', alt: 'Amostra de atividade 12' },
-  { src: '/assets/images/gallery_13.png', alt: 'Amostra de atividade 13' },
-  { src: '/assets/images/gallery_14.png', alt: 'Amostra de atividade 14' },
+  { src: '/assets/images/es_gallery_1.png', alt: 'Muestra de actividad 1' },
+  { src: '/assets/images/es_gallery_2.png', alt: 'Muestra de actividad 2' },
+  { src: '/assets/images/es_gallery_3.png', alt: 'Muestra de actividad 3' },
+  { src: '/assets/images/es_gallery_4.png', alt: 'Muestra de actividad 4' },
 ];
 
 // Duplica para marquee infinito
-const slides = [...allImages, ...allImages];
+const slides = [...allImages, ...allImages, ...allImages, ...allImages];
 
 export default function Gallery() {
   return (
@@ -22,13 +15,13 @@ export default function Gallery() {
         {/* Header */}
         <div className="text-center">
           <span className="badge bg-sage-soft text-secondary border border-green-200 mb-4">
-            Amostra real do material
+            Muestra real del material
           </span>
           <h2 className="section-title mb-3">
-            Veja algumas páginas do material 👀
+            Mira algunas páginas del material 👀
           </h2>
           <p className="section-subtitle max-w-lg mx-auto">
-            Essas são apenas algumas páginas — existem centenas dentro do kit, organizadas por ano e por tipo de atividade.
+            Estas son solo algunas páginas — hay cientos dentro del kit, organizadas por grado y por tipo de actividad.
           </p>
         </div>
       </div>
@@ -45,12 +38,12 @@ export default function Gallery() {
           {slides.map((img, i) => (
             <div
               key={i}
-              className="w-44 sm:w-56 md:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-card border border-border bg-white group"
+              className="w-44 sm:w-56 md:w-64 aspect-[3/4] flex-shrink-0 rounded-2xl overflow-hidden shadow-premium border border-border bg-white group p-1"
             >
               <img
                 src={img.src}
                 alt={img.alt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover rounded-xl group-hover:scale-[1.03] transition-transform duration-500"
                 loading="lazy"
               />
             </div>
@@ -61,7 +54,7 @@ export default function Gallery() {
       {/* Footer */}
       <div className="section-wrapper mt-6 px-5 text-center">
         <p className="text-sm text-muted-foreground font-medium">
-          📖 Essas são só algumas páginas — tem muito mais dentro do kit!
+          📖 ¡Estas son solo algunas páginas — hay mucho más dentro del kit!
         </p>
       </div>
     </section>

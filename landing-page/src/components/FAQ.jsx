@@ -2,87 +2,67 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'É alinhado à BNCC?',
-    shortAnswer: 'SIM.',
-    answer: 'Todo o material foi desenvolvido com base nas competências e habilidades da BNCC para o Ensino Fundamental I. Você aplica com segurança e confiança pedagógica.',
+    question: '¿Está alineado a primaria?',
+    shortAnswer: 'SÍ.',
+    answer: 'Todo el material fue desarrollado basándose en las competencias y habilidades del currículo de primaria. Aplicarás con total seguridad y confianza pedagógica.',
     icon: '📌',
   },
   {
-    question: 'Posso imprimir quantas vezes quiser?',
-    shortAnswer: 'SIM.',
-    answer: 'O PDF é de uso pessoal ilimitado. Você pode imprimir para sua turma quantas vezes precisar ao longo do ano letivo.',
+    question: '¿Puedo imprimir las veces que quiera?',
+    shortAnswer: 'SÍ.',
+    answer: 'El PDF es de uso personal ilimitado. Puedes imprimir para tus alumnos cuantas veces necesites a lo largo de todo el ciclo escolar.',
     icon: '🖨️',
   },
   {
-    question: 'Serve para mais de uma turma?',
-    shortAnswer: 'SIM.',
-    answer: 'O kit cobre do 1º ao 5º ano — perfeito para professoras que atendem mais de uma turma ou querem ter material completo para todo o ciclo.',
+    question: '¿Puedo usarlo con varios grados?',
+    shortAnswer: 'SÍ.',
+    answer: 'El Mega Pack cubre de 1ro a 5to grado — perfecto para maestras que atienden a más de un grupo o quieren tener material completo para toda la primaria.',
     icon: '👩‍🏫',
   },
   {
-    question: 'Recebo na hora?',
-    shortAnswer: 'SIM.',
-    answer: 'Após a confirmação do pagamento, o link de download é liberado automaticamente. Em menos de 2 minutos você já tem acesso a tudo.',
+    question: '¿Es acceso inmediato?',
+    shortAnswer: 'SÍ.',
+    answer: 'Tras la confirmación de tu pago, el enlace de descarga se libera automáticamente. En menos de 2 minutos ya tienes acceso a todo tu material.',
     icon: '⚡',
   },
   {
-    question: 'É físico ou digital?',
-    shortAnswer: 'Digital — acesso imediato em PDF.',
-    answer: 'O material é 100% digital em formato PDF. Você baixa, imprime e usa. Sem frete, sem espera — acesso imediato de qualquer lugar.',
+    question: '¿Es físico o digital?',
+    shortAnswer: 'Digital — acceso inmediato en PDF.',
+    answer: 'El material es 100% digital en formato PDF. Descargas, imprimes y usas. Sin envíos, sin esperas — acceso inmediato desde cualquier lugar.',
     icon: '📱',
   },
   {
-    question: 'Funciona em impressora preto e branco?',
-    shortAnswer: 'SIM.',
-    answer: 'O material foi preparado para funcionar em qualquer impressora doméstica — colorida ou preto e branco. O resultado fica excelente nos dois casos.',
-    icon: '🖤',
+    question: '¿Necesito imprimir en color?',
+    shortAnswer: 'NO ES NECESARIO.',
+    answer: 'Las actividades fueron diseñadas para verse hermosas y legibles incluso impresas en blanco y negro. Funciona perfecto en cualquier impresora.',
+    icon: '🖨️',
   },
 ];
 
 function FaqItem({ faq, isOpen, onClick }) {
   return (
     <div
-      className={`bg-white rounded-2xl border transition-all duration-200 overflow-hidden ${
-        isOpen ? 'border-primary/30 shadow-card' : 'border-border'
-      }`}
+      className={`bg-white rounded-2xl border ${isOpen ? 'border-primary/30 shadow-md' : 'border-border'} overflow-hidden transition-all duration-300`}
     >
       <button
-        type="button"
         onClick={onClick}
-        className="w-full flex items-center gap-3 px-5 py-4 text-left"
-        aria-expanded={isOpen}
+        className="w-full flex items-center gap-3 p-4 text-left hover:bg-gray-50/50 transition-colors"
       >
         <span className="text-xl flex-shrink-0">{faq.icon}</span>
-        <div className="flex-1 min-w-0">
-          <div className="flex items-start justify-between gap-3">
-            <span className="font-display font-semibold text-foreground text-sm leading-snug">
-              {faq.question}
-            </span>
-            {!isOpen && (
-              <span className="font-display font-bold text-secondary text-sm flex-shrink-0">
-                {faq.shortAnswer}
-              </span>
-            )}
-          </div>
-        </div>
+        <span className="flex-1 font-display font-semibold text-foreground text-sm">{faq.question}</span>
         <svg
-          className={`w-5 h-5 text-muted-foreground flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
+          className={`w-5 h-5 text-muted-foreground flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
+          fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
 
       {isOpen && (
-        <div className="px-5 pb-5 pt-0 animate-fade-in">
-          <div className="border-t border-border pt-3 pl-9">
-            <p className="font-display font-bold text-secondary text-sm mb-1.5">
-              {faq.shortAnswer}
-            </p>
-            <p className="text-muted-foreground text-sm leading-relaxed font-medium">
+        <div className="px-4 pb-4 pt-0">
+          <div className="pl-9">
+            <p className="text-sm font-bold text-primary mb-1">{faq.shortAnswer}</p>
+            <p className="text-sm text-muted-foreground leading-relaxed">
               {faq.answer}
             </p>
           </div>
@@ -103,13 +83,13 @@ export default function FAQ() {
           {/* Header */}
           <div className="text-center mb-8">
             <span className="badge bg-sage-soft text-secondary border border-green-200 mb-4">
-              Dúvidas frequentes
+              Preguntas frecuentes
             </span>
             <h2 className="section-title mb-3">
-              Talvez você esteja pensando…
+              Quizás te estés preguntando…
             </h2>
             <p className="section-subtitle max-w-md mx-auto">
-              Respostas rápidas para as dúvidas mais comuns antes de comprar.
+              Respuestas rápidas a las dudas más comunes.
             </p>
           </div>
 
@@ -128,12 +108,12 @@ export default function FAQ() {
           {/* Footer */}
           <div className="mt-6 text-center">
             <p className="text-sm text-muted-foreground font-medium">
-              Ainda tem dúvidas?{' '}
+              ¿Aún tienes dudas?{' '}
               <a
                 href="mailto:suporte@kitaulapronta.com.br"
                 className="text-primary font-semibold underline underline-offset-2 hover:no-underline"
               >
-                Fale conosco
+                Contáctanos
               </a>
             </p>
           </div>
